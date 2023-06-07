@@ -1,0 +1,34 @@
+monthQuty=12
+seasonQuty=4
+averageDays = 0
+result =""
+monthNames
+seasonNames
+daysInMonth
+for(int i = 0; i < monthQuty; i++){
+monthName = monthNames[i]
+days = daysInMonth[i]
+seasonName
+if(i){
+seasonName = seasonNames[0]
+seasonName = seasonNames[1]
+seasonName = seasonNames[2]
+seasonName = seasonNames[3]
+}
+result = monthName + seasonName
+-(add(result)
+}
+j=0
+totaldays =0
+while(j<=daysInMonth.length-1){
+totaldays += daysInMonth[j]
+j++
+}
+averageDays = totaldays/monthQuty;
+-(add(averageDays);
+if(daysInMonth[1] == 28) {
+-(add("Рік не високосний")
+}
+else if (daysInMonth[1] == 29) {
+-(add("Рік високосний")
+}
